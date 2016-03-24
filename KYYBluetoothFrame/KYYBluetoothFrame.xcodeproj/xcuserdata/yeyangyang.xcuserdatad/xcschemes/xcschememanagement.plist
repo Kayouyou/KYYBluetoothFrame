@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>KYYBluetoothFrame.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>EF5FD2FA1CA41FD200591BEE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF5FD3161CA41FD200591BEE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF5FD3211CA41FD200591BEE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

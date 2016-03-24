@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF5FD3001CA41FD200591BEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5FD2FF1CA41FD200591BEE /* main.m */; };
+		EF5FD3031CA41FD200591BEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5FD3021CA41FD200591BEE /* AppDelegate.m */; };
+		EF5FD3061CA41FD200591BEE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5FD3051CA41FD200591BEE /* ViewController.m */; };
+		EF5FD3091CA41FD200591BEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF5FD3071CA41FD200591BEE /* Main.storyboard */; };
+		EF5FD30C1CA41FD200591BEE /* KYYBluetoothFrame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF5FD30A1CA41FD200591BEE /* KYYBluetoothFrame.xcdatamodeld */; };
+		EF5FD30E1CA41FD200591BEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF5FD30D1CA41FD200591BEE /* Assets.xcassets */; };
+		EF5FD3111CA41FD200591BEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF5FD30F1CA41FD200591BEE /* LaunchScreen.storyboard */; };
+		EF5FD31C1CA41FD200591BEE /* KYYBluetoothFrameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5FD31B1CA41FD200591BEE /* KYYBluetoothFrameTests.m */; };
+		EF5FD3271CA41FD200591BEE /* KYYBluetoothFrameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5FD3261CA41FD200591BEE /* KYYBluetoothFrameUITests.m */; };
+		EF5FD33A1CA4200200591BEE /* KSBleConnectionTask.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5FD3351CA4200200591BEE /* KSBleConnectionTask.m */; };
+		EF5FD33B1CA4200200591BEE /* KSBlePeripheralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5FD3371CA4200200591BEE /* KSBlePeripheralManager.m */; };
+		EF5FD33C1CA4200200591BEE /* KSLuggageCaseLock.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5FD3391CA4200200591BEE /* KSLuggageCaseLock.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF5FD3181CA41FD200591BEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF5FD2F31CA41FD200591BEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF5FD2FA1CA41FD200591BEE;
+			remoteInfo = KYYBluetoothFrame;
+		};
+		EF5FD3231CA41FD200591BEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF5FD2F31CA41FD200591BEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF5FD2FA1CA41FD200591BEE;
+			remoteInfo = KYYBluetoothFrame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF5FD2FB1CA41FD200591BEE /* KYYBluetoothFrame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KYYBluetoothFrame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5FD2FF1CA41FD200591BEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF5FD3011CA41FD200591BEE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF5FD3021CA41FD200591BEE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF5FD3041CA41FD200591BEE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF5FD3051CA41FD200591BEE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF5FD3081CA41FD200591BEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF5FD30B1CA41FD200591BEE /* KYYBluetoothFrame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KYYBluetoothFrame.xcdatamodel; sourceTree = "<group>"; };
+		EF5FD30D1CA41FD200591BEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF5FD3101CA41FD200591BEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF5FD3121CA41FD200591BEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF5FD3171CA41FD200591BEE /* KYYBluetoothFrameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KYYBluetoothFrameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5FD31B1CA41FD200591BEE /* KYYBluetoothFrameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KYYBluetoothFrameTests.m; sourceTree = "<group>"; };
+		EF5FD31D1CA41FD200591BEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF5FD3221CA41FD200591BEE /* KYYBluetoothFrameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KYYBluetoothFrameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5FD3261CA41FD200591BEE /* KYYBluetoothFrameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KYYBluetoothFrameUITests.m; sourceTree = "<group>"; };
+		EF5FD3281CA41FD200591BEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF5FD3341CA4200200591BEE /* KSBleConnectionTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSBleConnectionTask.h; sourceTree = "<group>"; };
+		EF5FD3351CA4200200591BEE /* KSBleConnectionTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSBleConnectionTask.m; sourceTree = "<group>"; };
+		EF5FD3361CA4200200591BEE /* KSBlePeripheralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSBlePeripheralManager.h; sourceTree = "<group>"; };
+		EF5FD3371CA4200200591BEE /* KSBlePeripheralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSBlePeripheralManager.m; sourceTree = "<group>"; };
+		EF5FD3381CA4200200591BEE /* KSLuggageCaseLock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSLuggageCaseLock.h; sourceTree = "<group>"; };
+		EF5FD3391CA4200200591BEE /* KSLuggageCaseLock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSLuggageCaseLock.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF5FD2F81CA41FD200591BEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5FD3141CA41FD200591BEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5FD31F1CA41FD200591BEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF5FD2F21CA41FD200591BEE = {
+			isa = PBXGroup;
+			children = (
+				EF5FD2FD1CA41FD200591BEE /* KYYBluetoothFrame */,
+				EF5FD31A1CA41FD200591BEE /* KYYBluetoothFrameTests */,
+				EF5FD3251CA41FD200591BEE /* KYYBluetoothFrameUITests */,
+				EF5FD2FC1CA41FD200591BEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF5FD2FC1CA41FD200591BEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF5FD2FB1CA41FD200591BEE /* KYYBluetoothFrame.app */,
+				EF5FD3171CA41FD200591BEE /* KYYBluetoothFrameTests.xctest */,
+				EF5FD3221CA41FD200591BEE /* KYYBluetoothFrameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF5FD2FD1CA41FD200591BEE /* KYYBluetoothFrame */ = {
+			isa = PBXGroup;
+			children = (
+				EF5FD3341CA4200200591BEE /* KSBleConnectionTask.h */,
+				EF5FD3351CA4200200591BEE /* KSBleConnectionTask.m */,
+				EF5FD3361CA4200200591BEE /* KSBlePeripheralManager.h */,
+				EF5FD3371CA4200200591BEE /* KSBlePeripheralManager.m */,
+				EF5FD3381CA4200200591BEE /* KSLuggageCaseLock.h */,
+				EF5FD3391CA4200200591BEE /* KSLuggageCaseLock.m */,
+				EF5FD3011CA41FD200591BEE /* AppDelegate.h */,
+				EF5FD3021CA41FD200591BEE /* AppDelegate.m */,
+				EF5FD3041CA41FD200591BEE /* ViewController.h */,
+				EF5FD3051CA41FD200591BEE /* ViewController.m */,
+				EF5FD3071CA41FD200591BEE /* Main.storyboard */,
+				EF5FD30D1CA41FD200591BEE /* Assets.xcassets */,
+				EF5FD30F1CA41FD200591BEE /* LaunchScreen.storyboard */,
+				EF5FD3121CA41FD200591BEE /* Info.plist */,
+				EF5FD30A1CA41FD200591BEE /* KYYBluetoothFrame.xcdatamodeld */,
+				EF5FD2FE1CA41FD200591BEE /* Supporting Files */,
+			);
+			path = KYYBluetoothFrame;
+			sourceTree = "<group>";
+		};
+		EF5FD2FE1CA41FD200591BEE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF5FD2FF1CA41FD200591BEE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF5FD31A1CA41FD200591BEE /* KYYBluetoothFrameTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF5FD31B1CA41FD200591BEE /* KYYBluetoothFrameTests.m */,
+				EF5FD31D1CA41FD200591BEE /* Info.plist */,
+			);
+			path = KYYBluetoothFrameTests;
+			sourceTree = "<group>";
+		};
+		EF5FD3251CA41FD200591BEE /* KYYBluetoothFrameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF5FD3261CA41FD200591BEE /* KYYBluetoothFrameUITests.m */,
+				EF5FD3281CA41FD200591BEE /* Info.plist */,
+			);
+			path = KYYBluetoothFrameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF5FD2FA1CA41FD200591BEE /* KYYBluetoothFrame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF5FD32B1CA41FD200591BEE /* Build configuration list for PBXNativeTarget "KYYBluetoothFrame" */;
+			buildPhases = (
+				EF5FD2F71CA41FD200591BEE /* Sources */,
+				EF5FD2F81CA41FD200591BEE /* Frameworks */,
+				EF5FD2F91CA41FD200591BEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KYYBluetoothFrame;
+			productName = KYYBluetoothFrame;
+			productReference = EF5FD2FB1CA41FD200591BEE /* KYYBluetoothFrame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF5FD3161CA41FD200591BEE /* KYYBluetoothFrameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF5FD32E1CA41FD200591BEE /* Build configuration list for PBXNativeTarget "KYYBluetoothFrameTests" */;
+			buildPhases = (
+				EF5FD3131CA41FD200591BEE /* Sources */,
+				EF5FD3141CA41FD200591BEE /* Frameworks */,
+				EF5FD3151CA41FD200591BEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF5FD3191CA41FD200591BEE /* PBXTargetDependency */,
+			);
+			name = KYYBluetoothFrameTests;
+			productName = KYYBluetoothFrameTests;
+			productReference = EF5FD3171CA41FD200591BEE /* KYYBluetoothFrameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF5FD3211CA41FD200591BEE /* KYYBluetoothFrameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF5FD3311CA41FD200591BEE /* Build configuration list for PBXNativeTarget "KYYBluetoothFrameUITests" */;
+			buildPhases = (
+				EF5FD31E1CA41FD200591BEE /* Sources */,
+				EF5FD31F1CA41FD200591BEE /* Frameworks */,
+				EF5FD3201CA41FD200591BEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF5FD3241CA41FD200591BEE /* PBXTargetDependency */,
+			);
+			name = KYYBluetoothFrameUITests;
+			productName = KYYBluetoothFrameUITests;
+			productReference = EF5FD3221CA41FD200591BEE /* KYYBluetoothFrameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF5FD2F31CA41FD200591BEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "叶杨杨";
+				TargetAttributes = {
+					EF5FD2FA1CA41FD200591BEE = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					EF5FD3161CA41FD200591BEE = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EF5FD2FA1CA41FD200591BEE;
+					};
+					EF5FD3211CA41FD200591BEE = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EF5FD2FA1CA41FD200591BEE;
+					};
+				};
+			};
+			buildConfigurationList = EF5FD2F61CA41FD200591BEE /* Build configuration list for PBXProject "KYYBluetoothFrame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF5FD2F21CA41FD200591BEE;
+			productRefGroup = EF5FD2FC1CA41FD200591BEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF5FD2FA1CA41FD200591BEE /* KYYBluetoothFrame */,
+				EF5FD3161CA41FD200591BEE /* KYYBluetoothFrameTests */,
+				EF5FD3211CA41FD200591BEE /* KYYBluetoothFrameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF5FD2F91CA41FD200591BEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5FD3111CA41FD200591BEE /* LaunchScreen.storyboard in Resources */,
+				EF5FD30E1CA41FD200591BEE /* Assets.xcassets in Resources */,
+				EF5FD3091CA41FD200591BEE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5FD3151CA41FD200591BEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5FD3201CA41FD200591BEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF5FD2F71CA41FD200591BEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5FD33B1CA4200200591BEE /* KSBlePeripheralManager.m in Sources */,
+				EF5FD30C1CA41FD200591BEE /* KYYBluetoothFrame.xcdatamodeld in Sources */,
+				EF5FD3061CA41FD200591BEE /* ViewController.m in Sources */,
+				EF5FD33C1CA4200200591BEE /* KSLuggageCaseLock.m in Sources */,
+				EF5FD33A1CA4200200591BEE /* KSBleConnectionTask.m in Sources */,
+				EF5FD3031CA41FD200591BEE /* AppDelegate.m in Sources */,
+				EF5FD3001CA41FD200591BEE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5FD3131CA41FD200591BEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5FD31C1CA41FD200591BEE /* KYYBluetoothFrameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5FD31E1CA41FD200591BEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5FD3271CA41FD200591BEE /* KYYBluetoothFrameUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF5FD3191CA41FD200591BEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF5FD2FA1CA41FD200591BEE /* KYYBluetoothFrame */;
+			targetProxy = EF5FD3181CA41FD200591BEE /* PBXContainerItemProxy */;
+		};
+		EF5FD3241CA41FD200591BEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF5FD2FA1CA41FD200591BEE /* KYYBluetoothFrame */;
+			targetProxy = EF5FD3231CA41FD200591BEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF5FD3071CA41FD200591BEE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF5FD3081CA41FD200591BEE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF5FD30F1CA41FD200591BEE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF5FD3101CA41FD200591BEE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF5FD3291CA41FD200591BEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF5FD32A1CA41FD200591BEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF5FD32C1CA41FD200591BEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KYYBluetoothFrame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yeyanyyang.KYYBluetoothFrame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF5FD32D1CA41FD200591BEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KYYBluetoothFrame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yeyanyyang.KYYBluetoothFrame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF5FD32F1CA41FD200591BEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KYYBluetoothFrameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yeyanyyang.KYYBluetoothFrameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KYYBluetoothFrame.app/KYYBluetoothFrame";
+			};
+			name = Debug;
+		};
+		EF5FD3301CA41FD200591BEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KYYBluetoothFrameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yeyanyyang.KYYBluetoothFrameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KYYBluetoothFrame.app/KYYBluetoothFrame";
+			};
+			name = Release;
+		};
+		EF5FD3321CA41FD200591BEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KYYBluetoothFrameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yeyanyyang.KYYBluetoothFrameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KYYBluetoothFrame;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EF5FD3331CA41FD200591BEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KYYBluetoothFrameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yeyanyyang.KYYBluetoothFrameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KYYBluetoothFrame;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF5FD2F61CA41FD200591BEE /* Build configuration list for PBXProject "KYYBluetoothFrame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5FD3291CA41FD200591BEE /* Debug */,
+				EF5FD32A1CA41FD200591BEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF5FD32B1CA41FD200591BEE /* Build configuration list for PBXNativeTarget "KYYBluetoothFrame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5FD32C1CA41FD200591BEE /* Debug */,
+				EF5FD32D1CA41FD200591BEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF5FD32E1CA41FD200591BEE /* Build configuration list for PBXNativeTarget "KYYBluetoothFrameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5FD32F1CA41FD200591BEE /* Debug */,
+				EF5FD3301CA41FD200591BEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF5FD3311CA41FD200591BEE /* Build configuration list for PBXNativeTarget "KYYBluetoothFrameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5FD3321CA41FD200591BEE /* Debug */,
+				EF5FD3331CA41FD200591BEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EF5FD30A1CA41FD200591BEE /* KYYBluetoothFrame.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EF5FD30B1CA41FD200591BEE /* KYYBluetoothFrame.xcdatamodel */,
+			);
+			currentVersion = EF5FD30B1CA41FD200591BEE /* KYYBluetoothFrame.xcdatamodel */;
+			path = KYYBluetoothFrame.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EF5FD2F31CA41FD200591BEE /* Project object */;
+}
